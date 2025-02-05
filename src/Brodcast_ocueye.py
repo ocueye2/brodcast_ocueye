@@ -7,7 +7,7 @@ class brodcast:
     @staticmethod
     def cont(name):
         if name not in bcfunct:
-            raise Exception("No registered function found for: " + name) 
+            raise ValueError(name + " has no functions asociated \n check for item in brodcast.debug before sending to prevent") 
         
         tempthreads = []
         for item in bcfunct[name]:
@@ -21,7 +21,7 @@ class brodcast:
     @staticmethod
     def wait(name):
         if name not in bcfunct:
-            raise Exception("No registered function found for: " + name) 
+            raise ValueError(name + " has no functions asociated \n check for item in brodcast.debug before sending to prevent") 
         
         tempthreads = []
         for item in bcfunct[name]:
@@ -35,7 +35,7 @@ class brodcast:
 
     @staticmethod
     def debug():
-        print("\nRegistered Functions:", bcfunct)
+        return bcfunct
 
     @staticmethod
     def on(receve):
