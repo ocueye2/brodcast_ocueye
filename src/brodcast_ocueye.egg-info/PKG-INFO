@@ -1,0 +1,12 @@
+Metadata-Version: 2.2
+Name: brodcast_ocueye
+Version: 0.0.1
+Summary: Its the brodcast feture from scratch in python bacicly
+Author-email: ocueye <carsonmayn@fuse.net>
+Project-URL: Homepage, https://github.com/ocueye2/brodcast_ocueye
+Project-URL: Issues, https://github.com/ocueye2/brodcast_ocueye/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
